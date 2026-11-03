@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#0c0f12">
+    <title>Григорій Многогрішний — фансторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <aside class="sidebar" aria-label="Головна навігація">
+        <a class="brand icon-button" href="#profile" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="5"/><circle cx="12" cy="12" r="4"/><circle class="icon-fill" cx="17.5" cy="6.8" r="1"/></svg>
+        </a>
+        <nav class="side-nav">
+            <a class="icon-button" href="#profile" aria-label="Головна"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m3.5 10 8.5-7 8.5 7v10.5h-6v-7h-5v7h-6z"/></svg></a>
+            <a class="icon-button" href="#posts" aria-label="Відео"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="4"/><path d="m10 8 5 4-5 4z"/></svg></a>
+            <a class="icon-button" href="#stories" aria-label="Повідомлення"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-7.5 18-3.8-7.7L2 9.5z"/><path d="m9.7 13.3 5.2-5.2"/></svg></a>
+            <a class="icon-button" href="#about" aria-label="Пошук"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="7"/><path d="m16 16 5 5"/></svg></a>
+            <a class="icon-button" href="#posts" aria-label="Сповіщення"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 8.8c0 5-8.5 11-8.5 11s-8.5-6-8.5-11a4.5 4.5 0 0 1 8.5-2 4.5 4.5 0 0 1 8.5 2Z"/></svg></a>
+            <a class="icon-button" href="#stories" aria-label="Створити"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg></a>
+            <a class="icon-button mini-avatar" href="#profile" aria-label="Профіль Григорія"><img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=100&q=80" alt=""></a>
+        </nav>
+        <div class="sidebar-bottom">
+            <a class="icon-button" href="#about" aria-label="Меню"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg></a>
+            <a class="icon-button" href="#about" aria-label="Інші сервіси"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></a>
+        </div>
+    </aside>
+
+    <main class="main-content">
+        <section class="profile" id="profile" aria-labelledby="profile-name">
+            <div class="avatar-column">
+                <div class="avatar-note">Нотатка…<span></span></div>
+                <div class="avatar"><img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=320&h=320&q=85" alt="Тайговий ліс — символічне фото профілю"></div>
+            </div>
+            <div class="profile-info">
+                <div class="profile-title">
+                    <h1 id="profile-name">hryhorii.mnohohrishnyi</h1>
+                    <span class="verified-badge" role="img" aria-label="Неофіційна фансторінка">
+                        <svg viewBox="0 0 20 20" aria-hidden="true"><path d="m5.2 10.2 3.1 3.1 6.6-7"/></svg>
+                    </span>
+                    <button class="more-button" type="button" aria-label="Інші дії">•••</button>
+                </div>
+                <p class="full-name">Григорій Многогрішний</p>
+                <div class="stats" aria-label="Статистика профілю">
+                    <span><strong>1</strong> допис</span>
+                    <span><strong>999 млн</strong> підписників</span>
+                    <span><strong>2</strong> підписки</span>
+                </div>
+                <div class="bio" id="about">
+                    <a href="#about">#тигролови</a>
+                    <p>Інженер-авіатор · нащадок козацького роду</p>
+                    <p>Утік з ешелону смерті. Обрав волю й тайгу 🌲</p>
+                    <p>Герой роману Івана Багряного «Тигролови»</p>
+                    <p>Неофіційна фансторінка літературного героя.</p>
+                </div>
+                <div class="profile-actions">
+                    <button class="action-button" type="button" aria-pressed="false">Стежити</button>
+                    <button class="action-button secondary" type="button">Переглянути архів</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="posts-section" id="posts" aria-label="Публікації">
+            <div class="post-tabs" role="tablist" aria-label="Вкладки профілю">
+                <button class="tab active" type="button" role="tab" aria-selected="true" aria-label="Публікації"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 3h5v5H3zM10 3h5v5h-5zM17 3h4v5h-4zM3 10h5v5H3zM10 10h5v5h-5zM17 10h4v5h-4zM3 17h5v4H3zM10 17h5v4h-5zM17 17h4v4h-4z"/></svg></button>
+                <button class="tab" type="button" role="tab" aria-selected="false" aria-label="Відео"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="4"/><path d="m10 8 5 4-5 4z"/></svg></button>
+                <button class="tab" type="button" role="tab" aria-selected="false" aria-label="Збережене"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h14v18l-7-5-7 5z"/></svg></button>
+                <button class="tab" type="button" role="tab" aria-selected="false" aria-label="Позначки"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="14" rx="3"/><path d="M8 7l1.5-3h5L16 7"/><circle cx="12" cy="14" r="3.5"/></svg></button>
+            </div>
+            <div class="post-grid">
+                <article class="post" id="post">
+                    <img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&h=1050&q=85" alt="Густий ліс у тайзі">
+                    <span class="post-menu">•••</span>
+                    <span class="post-kind" aria-label="Дописи"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="3" width="16" height="18" rx="4"/><path d="m10 8 5 4-5 4z"/></svg></span>
+                    <div class="post-caption">
+                        <span class="post-tag">#іванбагряний</span>
+                            <h2>«Тигролови»</h2>
+                            <p>Історія Григорія Многогрішного — про волю, гідність і незламність.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+    
+    </main>
+    <button class="messages-button" type="button" aria-label="Повідомлення">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m21 3-7.5 18-3.8-7.7L2 9.5z"/><path d="m9.7 13.3 5.2-5.2"/></svg>
+        <span>Повідомлення</span>
+        <span class="message-avatars"><i>Г</i><i>Н</i><i>С</i></span>
+    </button>
+    <script>
+        const followButton = document.querySelector(".action-button");
+        followButton.addEventListener("click", () => {
+            const following = followButton.getAttribute("aria-pressed") !== "true";
+            followButton.setAttribute("aria-pressed", String(following));
+            followButton.textContent = following ? "Ви стежите" : "Стежити";
+        });
+
+        document.querySelectorAll(".tab").forEach((tab) => {
+            tab.addEventListener("click", () => {
+                document.querySelectorAll(".tab").forEach((item) => {
+                    item.classList.remove("active");
+                    item.setAttribute("aria-selected", "false");
+                });
+                tab.classList.add("active");
+                tab.setAttribute("aria-selected", "true");
+            });
+        });
+    </script>
+</body>
+</html>
